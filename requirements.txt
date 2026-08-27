@@ -1,0 +1,12 @@
+# Required. Text extraction, page rendering, and ruled-table detection.
+pymupdf>=1.24
+
+# Optional: `--classifier model` and `python classify.py --train`.
+# Without it, classify.predict() returns None and the rules run instead.
+scikit-learn>=1.3
+
+# Optional: the scanned path (`--ocr`). Needs the tesseract BINARY on PATH as
+# well -- pytesseract is only a wrapper around it, and ocr.py raises
+# OCRUnavailable rather than silently returning an empty page.
+pytesseract>=0.3.10
+pillow>=10.0

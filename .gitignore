@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+_*.py
+*.pdf
+*.png
+ocr_bench.txt
+
+# Local-only notes (workflow phase 7)
+observe.md
+CLAUDE.md
+classifier.pkl
